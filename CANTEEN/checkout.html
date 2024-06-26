@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="./checkout.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="app-name">DCan</div>
+        <div class="options">
+            <div class="cart">
+                <i class="fas fa-shopping-cart"></i>
+                <span class="cart-count">3</span>
+            </div>
+            <div class="wallet">
+                <i class="fas fa-wallet"></i>
+            </div>
+            <div class="user">
+                <i class="fas fa-user-circle"></i>
+            </div>
+        </div>
+    </nav>
+
+    <section class="checkout-container">
+        <h2 class="checkout-heading">Checkout</h2>
+        
+        <div class="cart-items">
+            <h3>Items in Cart</h3>
+            <div class="item">
+                <span class="item-name">Tea</span>
+                <span class="item-price">Rs 10/-</span>
+            </div>
+            <div class="item">
+                <span class="item-name">Coffee</span>
+                <span class="item-price">Rs 15/-</span>
+            </div>
+            <div class="item">
+                <span class="item-name">Samosa</span>
+                <span class="item-price">Rs 15/-</span>
+            </div>
+            <!-- Add more items here as needed -->
+        </div>
+
+        <div class="checkout-details">
+            <div class="detail">
+                <span>Total Amount:</span>
+                <span>Rs 40/-</span>
+            </div>
+            <div class="detail">
+                <span>Wallet Balance:</span>
+                <span>Rs 500/-</span>
+            </div>
+            <div class="detail">
+                <span>Remaining Balance:</span>
+                <span>Rs 460/-</span>
+            </div>
+        </div>
+        <button class="checkout-button">Confirm Payment</button>
+    </section>
+</body>
+</html>

@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f5f5;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    background-color:white ;
+    
+}
+
+.options{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 150px;
+    height: 95%;
+}
+
+.app-name{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.options .cart i{
+    font-size: 20px;
+}
+
+.options .cart span{
+    font-size: 15px;
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+.options .user i{
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.options .wallet i{
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.search-option{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 250px;
+    background: url("./Assets/360_F_297677001_zX7ZzRq8DObUV5IWTHAIhAae6DuiEQh4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.search-box-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 160px;
+    border: 1px solid #000000;
+    background-color: #ffffffdc;
+    border-radius: 10px;
+}
+
+.search-box-container input{
+    width: 300px;
+    height: 30px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    padding-left: 10px;
+
+}
+
+.search-box-container button{
+    width: 50px;
+    height: 30px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    background-color: #000000;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.food-items-containers{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 30px;
+}
+
+.food-menu-head{
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.food-item-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: auto;
+    padding: 30px;
+
+}
+
+.breakfast{
+    /* background-color: #e31414; */
+    width: 98%;
+    height: 500px;
+    padding: 30px;
+    border: #676767 1px solid;
+    overflow-y: scroll;
+    border-radius: 5px;
+    scrollbar-width: thin;
+
+
+}
+
+.breakfast-heading{
+    font-size: 30px;
+    font-weight: 600;
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+.breakfast-item{
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.item{
+    width: 32%;
+    height: 100%;
+    padding: 10px;
+    border: #000000 1px solid;
+    margin-bottom: 30px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+
+}
+
+.food-img img{
+    width: 120px;
+    height: 100px;
+    margin-right: 30px;
+    margin-left: 30px;
+    border-radius: 10px;
+}
+.food-disc{
+    width: 100%;
+    height: 100%;
+    margin-right: 10px;
+}
+
+.food-disc h4{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.food-disc p{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.food-disc button{
+    width: 100px;
+    height: 30px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    background-color: #000000;
+    color: #ffffff;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
